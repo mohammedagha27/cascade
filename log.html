@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/log.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="shadow">
+      <div class="cont">
+       <div class="signin">
+        <div class="header">
+          <h1>Subscribe to Cascade!</h1>
+        </div>
+        <div class="body">
+          <div class="logos">
+            <div class="logo google">
+              <i class="fab fa-google-plus-g"></i>
+              <p>Google</p>
+            </div>
+            <div class="logo facebook">
+              <i class="fab fa-facebook"></i>
+              <p>Facebook</p>
+            </div>
+          </div>
+
+          <div class="form">
+            <div class="validate"></div>
+            <form action="" id="form1" onsubmit="return sub()" name="login">
+              <div class="input">
+                <label for=""
+                  >Emile or Phone
+                  <i class="fas fa-exclamation-triangle em-i"></i></label
+                ><br />
+                <input type="text" name="email" />
+              </div>
+              <div class="input">
+                <label for=""
+                  >Passoword
+                  <i class="fas fa-exclamation-triangle pass-i"></i></label
+                ><br />
+                <input type="password" name="pass" />
+              </div>
+              <div class="input">
+                <label for=""
+                  >Rewrite Passoword
+                  <i class="fas fa-exclamation-triangle repass-i"></i
+                ></label>
+                <br />
+                <input type="password" name="repass" />
+              </div>
+              <div class="btn">
+                <button class="join" type="submit" form="form1">
+                  <span>Join Us </span><i class="fas fa-sign-in-alt"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <p class="alr">Already have an account? <a href="">login</a></p>
+        </div>
+       </div>
+       <div class="login">
+        <div class="header">
+          <h1>Log in to your account</h1>
+        </div>
+        <div class="body">
+          <div class="form">
+            <div class="validate2"></div>
+            <form action="" id="form2" onsubmit="return logg()" name="login2">
+              <div class="input">
+                <label for=""
+                  >Emile or Phone
+                  <i class="fas fa-exclamation-triangle em2-i"></i></label
+                ><br />
+                <input type="text" name="email" />
+              </div>
+              <div class="input">
+                <label for=""
+                  >Passoword
+                  <i class="fas fa-exclamation-triangle pass2-i"></i>  <i class="fas fa-eye"></i></label
+                ><br />
+                <input type="password" name="pass" id="pass" />
+               
+              </div>
+              <div class="btn">
+                <button class="logbtn" type="submit" form="form2">
+                  <span>login</span><i class="fas fa-sign-in-alt"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <p class="don">Dont have an account? <a href="">signin</a></p>
+        </div>
+       </div>
+      </div>
+    </div>
+    <div class="popup-shdow">
+      <div class="pop">
+        <i class="fas fa-check-circle head-i"></i>
+        <h1>
+          Created <br />
+          Succesfully!
+        </h1>
+        <p>Welocme to our world <i class="fas fa-heart anime"></i></p>
+        <div class="btns">
+          <button class="return">Return</button>
+          <button class="cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>
